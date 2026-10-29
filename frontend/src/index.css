@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0b1f3a;
+  --color-navy-light: #14305a;
+  --color-footer: #111827;
+}
+
+body {
+  @apply bg-gray-100 text-gray-900 antialiased;
+}
